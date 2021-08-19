@@ -1,0 +1,52 @@
+html,body,#app{
+  width:100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /*min-width: 400px;*/
+}
+.el-cascader-menu { height: auto; }
+.el-breadcrumb{
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+.el-card{
+  box-shadow: 0 1px 1px rgba(0,0,0,0.15) !important;
+
+}
+.el-table{
+  margin-top: 15px;
+  font-size: 12px;
+}
+.el-pagination{
+  margin-top: 15px;
+}
+::-webkit-scrollbar {
+  width: 0 !important;
+}
+::-webkit-scrollbar {
+  width: 0 !important;height: 0;
+}
+
+.el-form-item{
+  margin-bottom: 15px!important;
+}
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.el-scrollbar__wrap{
+  overflow-x: hidden;
+}
+.el-table__body tr.current-row>td{
+  background-color: #d9d9db !important;
+   color: red;
+}
+.el-table--enable-row-hover .el-table__body tr:hover>td {
+  background-color: #d9d9db;
+   color: #6796a3;
+}
